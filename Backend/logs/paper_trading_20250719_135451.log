@@ -1,0 +1,21 @@
+2025-07-19 13:54:51,976 - INFO - ============================================================
+2025-07-19 13:54:51,977 - INFO - 🚀 PAPER TRADING SYSTEM INITIALIZED
+2025-07-19 13:54:51,977 - INFO - ============================================================
+2025-07-19 13:54:51,977 - INFO - Log file created: logs/paper_trading_20250719_135451.log
+2025-07-19 13:54:51,977 - INFO - Session started at: 2025-07-19 13:54:51
+2025-07-19 13:54:51,977 - INFO - ============================================================
+2025-07-19 13:54:51,981 - INFO - 📁 Created trade log file: logs/paper_trades_EPICUSDT_20250719_135451.csv
+2025-07-19 13:54:51,982 - INFO - 📝 CSV Headers: trade_id, timestamp, symbol, side, entry_price, quantity, leverage, risk_pct, reward_pct, stop_loss, take_profit, current_roe, drawdown, max_roe, trade_status, exit_price, exit_timestamp, actual_return_pct, notes
+2025-07-19 13:54:51,982 - INFO - 💾 Trader initialized for EPICUSDT
+2025-07-19 13:54:51,982 - INFO - 📊 Initial Balance: $1000
+2025-07-19 13:54:52,003 - INFO - 🎯 Target ROE: 100%
+2025-07-19 13:54:52,003 - INFO - ⚡ Leverage: 10x
+2025-07-19 13:54:52,004 - INFO - 🪙 Signal Generation: Coin Flip (50% LONG, 50% SHORT)
+2025-07-19 13:54:52,417 - INFO - 🚀 Starting Paper Trading Bot for EPICUSDT (Coin Flip Signals)
+2025-07-19 13:54:52,418 - INFO - 🎯 Target ROE: 100% | Max Trades: 50
+2025-07-19 13:54:52,418 - INFO - ⏱️  Check Interval: 60 seconds
+2025-07-19 13:54:52,418 - INFO - 🪙 Signal Method: Coin Flip (50% LONG, 50% SHORT)
+2025-07-19 13:54:52,418 - INFO - 📈 Expected Win Rate: 35.0%
+2025-07-19 13:54:52,418 - INFO - ⚖️  Base Risk:Reward = 10%:30%
+2025-07-19 13:54:52,419 - INFO - 📊 Dynamic Adjustment Factor: 0.5
+2025-07-19 13:54:52,419 - INFO - ============================================================

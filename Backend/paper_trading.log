@@ -1,0 +1,12 @@
+2025-07-19 13:51:47,426 - INFO - Created trade log file: paper_trades_EPICUSDT_20250719_135147.csv
+2025-07-19 13:51:50,547 - INFO - 🚀 Starting Paper Trading Bot for EPICUSDT (Random Signals)
+2025-07-19 13:51:50,548 - INFO - Target ROE: 100% | Max Trades: 50
+2025-07-19 13:51:50,549 - INFO - Check Interval: 60 seconds | Signal Probability: 60% (30% LONG, 30% SHORT)
+2025-07-19 13:51:50,549 - INFO - Expected Win Rate: 35.0% | Base Risk:Reward = 10%:30%
+2025-07-19 13:51:51,381 - INFO - 📈 TRADE OPENED: PT_EPICUSDT_0001
+2025-07-19 13:51:51,382 - INFO -    Symbol: EPICUSDT | Side: SHORT | Leverage: 10x
+2025-07-19 13:51:51,382 - INFO -    Entry Price: $1.908100
+2025-07-19 13:51:51,382 - INFO -    Quantity: 5240.815471
+2025-07-19 13:51:51,383 - INFO -    Stop Loss: $1.927181 | Take Profit: $1.850857
+2025-07-19 13:51:51,383 - INFO -    Risk: 10.00% | Reward: 30.00%
+2025-07-19 13:51:51,383 - INFO -    Current ROE: 0.00% | Drawdown: 0.00%

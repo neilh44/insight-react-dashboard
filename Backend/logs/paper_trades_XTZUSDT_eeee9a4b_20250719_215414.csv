@@ -1,0 +1,1 @@
+trade_id,timestamp,symbol,side,entry_price,quantity,leverage,risk_pct,reward_pct,stop_loss,take_profit,current_roe,drawdown,max_roe,trade_status,exit_price,exit_timestamp,actual_return_pct,notes

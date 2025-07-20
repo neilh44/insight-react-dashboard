@@ -1,0 +1,21 @@
+2025-07-19 18:41:43,366 - INFO - 🚀 FLASK PAPER TRADING API INITIALIZED
+2025-07-19 18:41:43,377 - INFO - 🚀 Starting Flask Paper Trading API Server
+2025-07-19 18:41:43,377 - INFO - 📡 API Endpoints available:
+2025-07-19 18:41:43,378 - INFO -    POST /api/trader/create - Create new trader
+2025-07-19 18:41:43,378 - INFO -    POST /api/trader/<id>/start - Start trading
+2025-07-19 18:41:43,378 - INFO -    POST /api/trader/<id>/stop - Stop trading
+2025-07-19 18:41:43,379 - INFO -    GET  /api/trader/<id>/summary - Get portfolio summary
+2025-07-19 18:41:43,380 - INFO -    GET  /api/trader/<id>/trades - Get all trades
+2025-07-19 18:41:43,383 - INFO -    POST /api/trader/<id>/trade/manual - Place manual trade
+2025-07-19 18:41:43,384 - INFO -    GET  /api/trader/<id>/price - Get current price
+2025-07-19 18:41:43,385 - INFO -    GET  /api/traders - List all traders
+2025-07-19 18:41:43,385 - INFO -    DELETE /api/trader/<id>/delete - Delete trader
+2025-07-19 18:41:43,385 - INFO - ============================================================
+2025-07-19 18:41:43,433 - WARNING -  * Debugger is active!
+2025-07-19 18:41:43,564 - INFO -  * Debugger PIN: 245-117-843
+2025-07-19 18:41:44,952 - INFO - 127.0.0.1 - - [19/Jul/2025 18:41:44] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 18:41:49,949 - INFO - 127.0.0.1 - - [19/Jul/2025 18:41:49] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 18:41:51,399 - INFO - 127.0.0.1 - - [19/Jul/2025 18:41:51] "OPTIONS /api/trader/create HTTP/1.1" 200 -
+2025-07-19 18:41:51,405 - INFO - 💾 Trader b05faf91 initialized for EPICUSDT
+2025-07-19 18:41:51,406 - INFO - 127.0.0.1 - - [19/Jul/2025 18:41:51] "POST /api/trader/create HTTP/1.1" 200 -
+2025-07-19 18:41:51,425 - INFO - 127.0.0.1 - - [19/Jul/2025 18:41:51] "GET /api/traders HTTP/1.1" 200 -

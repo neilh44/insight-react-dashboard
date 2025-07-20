@@ -1,0 +1,23 @@
+2025-07-19 19:04:19,947 - INFO - 🚀 FLASK PAPER TRADING API INITIALIZED
+2025-07-19 19:04:19,961 - INFO - 🚀 Starting Enhanced Flask Paper Trading API Server
+2025-07-19 19:04:19,966 - INFO - 📡 Enhanced API Endpoints available:
+2025-07-19 19:04:19,967 - INFO -    POST /api/trader/create - Create new enhanced trader
+2025-07-19 19:04:19,967 - INFO -    POST /api/trader/<id>/start - Start enhanced trading
+2025-07-19 19:04:19,967 - INFO -    POST /api/trader/<id>/stop - Stop enhanced trading
+2025-07-19 19:04:19,967 - INFO -    GET  /api/trader/<id>/summary - Get enhanced portfolio summary
+2025-07-19 19:04:19,967 - INFO -    GET  /api/trader/<id>/trades - Get all trades
+2025-07-19 19:04:19,967 - INFO -    POST /api/trader/<id>/trade/manual - Place manual enhanced trade
+2025-07-19 19:04:19,967 - INFO -    GET  /api/trader/<id>/price - Get current price
+2025-07-19 19:04:19,967 - INFO -    GET  /api/trader/<id>/signals - Get signal statistics
+2025-07-19 19:04:19,968 - INFO -    POST /api/trader/<id>/force-balance - Force signal rebalancing
+2025-07-19 19:04:19,968 - INFO -    POST /api/trader/<id>/optimize - Get optimization suggestions
+2025-07-19 19:04:19,968 - INFO -    GET  /api/traders - List all enhanced traders
+2025-07-19 19:04:19,968 - INFO -    DELETE /api/trader/<id>/delete - Delete enhanced trader
+2025-07-19 19:04:19,968 - INFO - ================================================================================
+2025-07-19 19:04:19,968 - INFO - 🎯 Key Enhancements:
+2025-07-19 19:04:19,968 - INFO -    • True 50/50 signal generation with adaptive balancing
+2025-07-19 19:04:19,968 - INFO -    • Enhanced risk-reward adjustment based on drawdown
+2025-07-19 19:04:19,968 - INFO -    • Optimized for achieving 100% ROE in minimum trades
+2025-07-19 19:04:19,968 - INFO -    • Advanced position sizing and risk management
+2025-07-19 19:04:19,968 - INFO -    • Real-time performance tracking and optimization
+2025-07-19 19:04:19,968 - INFO - ================================================================================

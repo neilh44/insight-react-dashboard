@@ -1,0 +1,2 @@
+trade_id,timestamp,symbol,side,entry_price,quantity,leverage,risk_pct,reward_pct,stop_loss,take_profit,current_roe,drawdown,max_roe,trade_status,exit_price,exit_timestamp,actual_return_pct,notes
+PT_EPICUSDT_0001,2025-07-19 21:21:16.631611,EPICUSDT,LONG,1.7756,5350.30412255,10,5,15,1.7667220000000001,1.802234,0,0,0,OPEN,,,,🎯 Balanced Signal: LONG | R/R: 5.0%/15.0%

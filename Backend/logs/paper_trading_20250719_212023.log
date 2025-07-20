@@ -1,0 +1,73 @@
+2025-07-19 21:20:23,154 - INFO - 🚀 FLASK PAPER TRADING API INITIALIZED
+2025-07-19 21:20:23,168 - INFO - 🚀 Starting Enhanced Flask Paper Trading API Server
+2025-07-19 21:20:23,170 - INFO - 📡 Enhanced API Endpoints available:
+2025-07-19 21:20:23,170 - INFO -    POST /api/trader/create - Create new enhanced trader
+2025-07-19 21:20:23,171 - INFO -    POST /api/trader/<id>/start - Start enhanced trading
+2025-07-19 21:20:23,172 - INFO -    POST /api/trader/<id>/stop - Stop enhanced trading
+2025-07-19 21:20:23,172 - INFO -    GET  /api/trader/<id>/summary - Get enhanced portfolio summary
+2025-07-19 21:20:23,172 - INFO -    GET  /api/trader/<id>/trades - Get all trades
+2025-07-19 21:20:23,172 - INFO -    POST /api/trader/<id>/trade/manual - Place manual enhanced trade
+2025-07-19 21:20:23,173 - INFO -    GET  /api/trader/<id>/price - Get current price
+2025-07-19 21:20:23,173 - INFO -    GET  /api/trader/<id>/signals - Get signal statistics
+2025-07-19 21:20:23,173 - INFO -    POST /api/trader/<id>/force-balance - Force signal rebalancing
+2025-07-19 21:20:23,173 - INFO -    POST /api/trader/<id>/optimize - Get optimization suggestions
+2025-07-19 21:20:23,173 - INFO -    GET  /api/traders - List all enhanced traders
+2025-07-19 21:20:23,173 - INFO -    DELETE /api/trader/<id>/delete - Delete enhanced trader
+2025-07-19 21:20:23,173 - INFO - ================================================================================
+2025-07-19 21:20:23,174 - INFO - 🎯 Key Enhancements:
+2025-07-19 21:20:23,174 - INFO -    • True 50/50 signal generation with adaptive balancing
+2025-07-19 21:20:23,174 - INFO -    • Enhanced risk-reward adjustment based on drawdown
+2025-07-19 21:20:23,174 - INFO -    • Optimized for achieving 100% ROE in minimum trades
+2025-07-19 21:20:23,175 - INFO -    • Advanced position sizing and risk management
+2025-07-19 21:20:23,175 - INFO -    • Real-time performance tracking and optimization
+2025-07-19 21:20:23,176 - INFO - ================================================================================
+2025-07-19 21:20:23,221 - WARNING -  * Debugger is active!
+2025-07-19 21:20:23,233 - INFO -  * Debugger PIN: 245-117-843
+2025-07-19 21:20:23,409 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:23] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:23,431 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:23] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:25,077 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:25] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:28,075 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:28] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:31,078 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:31,082 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:33,877 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:33] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:35,683 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:35] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:38,661 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:38] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:38,665 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:38] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:40,263 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:40] "OPTIONS /api/trader/create HTTP/1.1" 200 -
+2025-07-19 21:20:40,270 - INFO - 💾 Enhanced Trader c7e00cf0 initialized for EPICUSDT
+2025-07-19 21:20:40,274 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:40] "POST /api/trader/create HTTP/1.1" 200 -
+2025-07-19 21:20:40,295 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:40] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:41,664 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:41] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:44,662 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:44] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:44,666 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:44] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:47,662 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:47] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:50,663 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:50] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:50,667 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:50] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:53,665 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:53] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:57,910 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:57] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:57,914 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:57] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:00,077 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:00] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:03,076 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:03] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:03,083 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:03] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:07,100 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:08,666 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:08] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:08,671 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:08] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:11,187 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:11] "OPTIONS /api/trader/c7e00cf0/trades HTTP/1.1" 200 -
+2025-07-19 21:21:11,193 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:11] "GET /api/trader/c7e00cf0/trades HTTP/1.1" 200 -
+2025-07-19 21:21:11,665 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:11] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:14,187 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:14] "GET /api/trader/c7e00cf0/trades HTTP/1.1" 200 -
+2025-07-19 21:21:14,684 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:14] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:14,688 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:14] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:15,557 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:15] "OPTIONS /api/trader/c7e00cf0/start HTTP/1.1" 200 -
+2025-07-19 21:21:15,583 - INFO - 🚀 Starting Enhanced Paper Trading Bot c7e00cf0
+2025-07-19 21:21:15,583 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:15] "POST /api/trader/c7e00cf0/start HTTP/1.1" 200 -
+2025-07-19 21:21:15,583 - INFO - 🎯 Target: 100% ROE in max 50 trades
+2025-07-19 21:21:15,597 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:15] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:21:16,235 - INFO - 🎯 Signal: LONG | LONG Ratio: 100.00%
+2025-07-19 21:21:16,631 - INFO - 📊 Risk: 5.0% | Reward: 15.0% | Drawdown: 0.0%
+2025-07-19 21:21:16,633 - INFO - 📈 ENHANCED TRADE: PT_EPICUSDT_0001 - LONG at $1.775600 | SL: $1.766722 | TP: $1.802234
+2025-07-19 21:21:16,633 - INFO - 🎯 New trade placed: LONG
+2025-07-19 21:21:17,186 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:17] "OPTIONS /api/trader/c7e00cf0/trades HTTP/1.1" 200 -
+2025-07-19 21:21:17,192 - INFO - 127.0.0.1 - - [19/Jul/2025 21:21:17] "GET /api/trader/c7e00cf0/trades HTTP/1.1" 200 -
+2025-07-19 21:21:32,087 - INFO - 🎯 Signal: SHORT | LONG Ratio: 50.00%
+2025-07-19 21:21:37,869 - INFO -  * Detected change in '/Users/nileshhanotia/Projects/anything/Backend/app.py', reloading

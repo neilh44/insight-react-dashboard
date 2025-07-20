@@ -1,0 +1,3 @@
+trade_id,timestamp,symbol,side,entry_price,quantity,leverage,risk_pct,reward_pct,stop_loss,take_profit,current_roe,drawdown,max_roe,trade_status,exit_price,exit_timestamp,actual_return_pct,notes
+PT_BTCUSDT_0001,2025-07-20 07:36:13.350694,BTCUSDT,SHORT,117840.8,0.8061724,100,15,40,118017.56120000001,117369.4368,0,0,0,OPEN,,,,🎯 Balanced Signal: SHORT | R/R: 15.0%/40.0% | WR: 50.0%
+PT_BTCUSDT_0002,2025-07-20 07:38:05.745884,BTCUSDT,SHORT,117839.0,0.80618471,100,15,40,118015.75850000001,117367.644,0,0,0,OPEN,,,,🎯 Balanced Signal: SHORT | R/R: 15.0%/40.0% | WR: 50.0%

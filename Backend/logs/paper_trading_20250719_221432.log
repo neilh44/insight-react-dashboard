@@ -1,0 +1,28 @@
+2025-07-19 22:14:32,635 - INFO - 🚀 FLASK PAPER TRADING API INITIALIZED
+2025-07-19 22:14:32,691 - INFO - 🚀 Starting Enhanced Flask Paper Trading API Server
+2025-07-19 22:14:32,691 - INFO - 📡 Enhanced API Endpoints available:
+2025-07-19 22:14:32,692 - INFO -    POST /api/trader/create - Create new enhanced trader
+2025-07-19 22:14:32,692 - INFO -    POST /api/trader/<id>/start - Start enhanced trading
+2025-07-19 22:14:32,692 - INFO -    POST /api/trader/<id>/stop - Stop enhanced trading
+2025-07-19 22:14:32,692 - INFO -    GET  /api/trader/<id>/summary - Get enhanced portfolio summary
+2025-07-19 22:14:32,693 - INFO -    GET  /api/trader/<id>/trades - Get all trades
+2025-07-19 22:14:32,693 - INFO -    POST /api/trader/<id>/trade/manual - Place manual enhanced trade
+2025-07-19 22:14:32,693 - INFO -    GET  /api/trader/<id>/price - Get current price
+2025-07-19 22:14:32,694 - INFO -    GET  /api/trader/<id>/signals - Get signal statistics
+2025-07-19 22:14:32,695 - INFO -    POST /api/trader/<id>/force-balance - Force signal rebalancing
+2025-07-19 22:14:32,696 - INFO -    POST /api/trader/<id>/optimize - Get optimization suggestions
+2025-07-19 22:14:32,697 - INFO -    GET  /api/traders - List all enhanced traders
+2025-07-19 22:14:32,698 - INFO -    DELETE /api/trader/<id>/delete - Delete enhanced trader
+2025-07-19 22:14:32,698 - INFO - ================================================================================
+2025-07-19 22:14:32,698 - INFO - 🎯 Key Enhancements:
+2025-07-19 22:14:32,698 - INFO -    • True 50/50 signal generation with adaptive balancing
+2025-07-19 22:14:32,699 - INFO -    • Enhanced risk-reward adjustment based on drawdown
+2025-07-19 22:14:32,699 - INFO -    • Optimized for achieving 100% ROE in minimum trades
+2025-07-19 22:14:32,699 - INFO -    • Advanced position sizing and risk management
+2025-07-19 22:14:32,699 - INFO -    • Real-time performance tracking and optimization
+2025-07-19 22:14:32,700 - INFO - ================================================================================
+2025-07-19 22:14:32,796 - WARNING -  * Debugger is active!
+2025-07-19 22:14:32,818 - INFO -  * Debugger PIN: 245-117-843
+2025-07-19 22:14:32,866 - INFO - 127.0.0.1 - - [19/Jul/2025 22:14:32] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:14:32,871 - INFO - 127.0.0.1 - - [19/Jul/2025 22:14:32] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:14:44,162 - INFO -  * Detected change in '/Users/nileshhanotia/Projects/anything/Backend/app.py', reloading

@@ -1,0 +1,44 @@
+2025-07-19 22:14:45,926 - INFO - 🚀 FLASK PAPER TRADING API INITIALIZED
+2025-07-19 22:14:45,941 - INFO - 🚀 Starting Enhanced Flask Paper Trading API Server
+2025-07-19 22:14:45,941 - INFO - 📡 Enhanced API Endpoints available:
+2025-07-19 22:14:45,942 - INFO -    POST /api/trader/create - Create new enhanced trader
+2025-07-19 22:14:45,942 - INFO -    POST /api/trader/<id>/start - Start enhanced trading
+2025-07-19 22:14:45,942 - INFO -    POST /api/trader/<id>/stop - Stop enhanced trading
+2025-07-19 22:14:45,942 - INFO -    GET  /api/trader/<id>/summary - Get enhanced portfolio summary
+2025-07-19 22:14:45,942 - INFO -    GET  /api/trader/<id>/trades - Get all trades
+2025-07-19 22:14:45,942 - INFO -    POST /api/trader/<id>/trade/manual - Place manual enhanced trade
+2025-07-19 22:14:45,942 - INFO -    GET  /api/trader/<id>/price - Get current price
+2025-07-19 22:14:45,942 - INFO -    GET  /api/trader/<id>/signals - Get signal statistics
+2025-07-19 22:14:45,942 - INFO -    POST /api/trader/<id>/force-balance - Force signal rebalancing
+2025-07-19 22:14:45,942 - INFO -    POST /api/trader/<id>/optimize - Get optimization suggestions
+2025-07-19 22:14:45,942 - INFO -    GET  /api/traders - List all enhanced traders
+2025-07-19 22:14:45,942 - INFO -    DELETE /api/trader/<id>/delete - Delete enhanced trader
+2025-07-19 22:14:45,942 - INFO - ================================================================================
+2025-07-19 22:14:45,943 - INFO - 🎯 Key Enhancements:
+2025-07-19 22:14:45,943 - INFO -    • True 50/50 signal generation with adaptive balancing
+2025-07-19 22:14:45,943 - INFO -    • Enhanced risk-reward adjustment based on drawdown
+2025-07-19 22:14:45,943 - INFO -    • Optimized for achieving 100% ROE in minimum trades
+2025-07-19 22:14:45,943 - INFO -    • Advanced position sizing and risk management
+2025-07-19 22:14:45,943 - INFO -    • Real-time performance tracking and optimization
+2025-07-19 22:14:45,943 - INFO - ================================================================================
+2025-07-19 22:14:45,978 - WARNING -  * Debugger is active!
+2025-07-19 22:14:45,995 - INFO -  * Debugger PIN: 245-117-843
+2025-07-19 22:15:31,075 - INFO - 127.0.0.1 - - [19/Jul/2025 22:15:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:15:31,079 - INFO - 127.0.0.1 - - [19/Jul/2025 22:15:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:16:31,075 - INFO - 127.0.0.1 - - [19/Jul/2025 22:16:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:16:31,079 - INFO - 127.0.0.1 - - [19/Jul/2025 22:16:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:17:31,083 - INFO - 127.0.0.1 - - [19/Jul/2025 22:17:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:17:31,087 - INFO - 127.0.0.1 - - [19/Jul/2025 22:17:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:18:31,079 - INFO - 127.0.0.1 - - [19/Jul/2025 22:18:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:18:31,083 - INFO - 127.0.0.1 - - [19/Jul/2025 22:18:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:19:31,081 - INFO - 127.0.0.1 - - [19/Jul/2025 22:19:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:19:31,085 - INFO - 127.0.0.1 - - [19/Jul/2025 22:19:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:20:31,092 - INFO - 127.0.0.1 - - [19/Jul/2025 22:20:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:20:31,100 - INFO - 127.0.0.1 - - [19/Jul/2025 22:20:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:21:31,083 - INFO - 127.0.0.1 - - [19/Jul/2025 22:21:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:21:31,089 - INFO - 127.0.0.1 - - [19/Jul/2025 22:21:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:22:31,089 - INFO - 127.0.0.1 - - [19/Jul/2025 22:22:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:22:31,098 - INFO - 127.0.0.1 - - [19/Jul/2025 22:22:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:23:31,088 - INFO - 127.0.0.1 - - [19/Jul/2025 22:23:31] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 22:23:31,093 - INFO - 127.0.0.1 - - [19/Jul/2025 22:23:31] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 22:23:47,377 - INFO -  * Detected change in '/Users/nileshhanotia/Projects/anything/Backend/app.py', reloading

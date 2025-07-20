@@ -1,0 +1,67 @@
+2025-07-20 07:43:00,611 - INFO - 🚀 FLASK PAPER TRADING API INITIALIZED
+2025-07-20 07:43:00,625 - INFO - 🚀 Starting Enhanced Flask Paper Trading API Server
+2025-07-20 07:43:00,625 - INFO - 📡 Enhanced API Endpoints available:
+2025-07-20 07:43:00,625 - INFO -    POST /api/trader/create - Create new enhanced trader
+2025-07-20 07:43:00,626 - INFO -    POST /api/trader/<id>/start - Start enhanced trading
+2025-07-20 07:43:00,626 - INFO -    POST /api/trader/<id>/stop - Stop enhanced trading
+2025-07-20 07:43:00,626 - INFO -    GET  /api/trader/<id>/summary - Get enhanced portfolio summary
+2025-07-20 07:43:00,626 - INFO -    GET  /api/trader/<id>/trades - Get all trades
+2025-07-20 07:43:00,626 - INFO -    POST /api/trader/<id>/trade/manual - Place manual enhanced trade
+2025-07-20 07:43:00,626 - INFO -    GET  /api/trader/<id>/price - Get current price
+2025-07-20 07:43:00,626 - INFO -    GET  /api/trader/<id>/signals - Get signal statistics
+2025-07-20 07:43:00,626 - INFO -    POST /api/trader/<id>/force-balance - Force signal rebalancing
+2025-07-20 07:43:00,626 - INFO -    POST /api/trader/<id>/optimize - Get optimization suggestions
+2025-07-20 07:43:00,626 - INFO -    GET  /api/traders - List all enhanced traders
+2025-07-20 07:43:00,626 - INFO -    DELETE /api/trader/<id>/delete - Delete enhanced trader
+2025-07-20 07:43:00,626 - INFO - ================================================================================
+2025-07-20 07:43:00,627 - INFO - 🎯 Key Enhancements:
+2025-07-20 07:43:00,627 - INFO -    • True 50/50 signal generation with adaptive balancing
+2025-07-20 07:43:00,627 - INFO -    • Enhanced risk-reward adjustment based on drawdown
+2025-07-20 07:43:00,627 - INFO -    • Optimized for achieving 100% ROE in minimum trades
+2025-07-20 07:43:00,627 - INFO -    • Advanced position sizing and risk management
+2025-07-20 07:43:00,627 - INFO -    • Real-time performance tracking and optimization
+2025-07-20 07:43:00,627 - INFO - ================================================================================
+2025-07-20 07:43:00,664 - WARNING -  * Debugger is active!
+2025-07-20 07:43:00,690 - INFO -  * Debugger PIN: 245-117-843
+2025-07-20 07:43:07,051 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:07,061 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:07,065 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:07,070 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:07,082 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:07,088 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:07,092 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:07,097 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:30,864 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:30] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:30,875 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:30] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:33,852 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:33] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:36,847 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:36] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:36,852 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:36] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:39,848 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:39] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:40,569 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:40] "OPTIONS /api/trader/create HTTP/1.1" 200 -
+2025-07-20 07:43:40,580 - ERROR - Error creating enhanced trader: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2025-07-20 07:43:40,581 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:40] "[35m[1mPOST /api/trader/create HTTP/1.1[0m" 500 -
+2025-07-20 07:43:42,847 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:42] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:42,852 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:42] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:45,518 - ERROR - Error creating enhanced trader: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2025-07-20 07:43:45,519 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:45] "[35m[1mPOST /api/trader/create HTTP/1.1[0m" 500 -
+2025-07-20 07:43:45,847 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:45] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:48,845 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:48] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:48,850 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:48] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:51,846 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:51] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:54,847 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:54] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:54,852 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:54] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:43:57,848 - INFO - 127.0.0.1 - - [20/Jul/2025 07:43:57] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:00,847 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:00] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:00,853 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:00] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:03,847 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:03] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:06,847 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:06] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:06,850 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:06] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,056 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,078 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,079 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,079 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,080 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,094 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,095 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:07,096 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-20 07:44:09,849 - INFO - 127.0.0.1 - - [20/Jul/2025 07:44:09] "GET /api/traders HTTP/1.1" 200 -

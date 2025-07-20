@@ -1,0 +1,245 @@
+2025-07-19 21:14:15,195 - INFO - 🚀 FLASK PAPER TRADING API INITIALIZED
+2025-07-19 21:14:15,211 - INFO - 🚀 Starting Enhanced Flask Paper Trading API Server
+2025-07-19 21:14:15,211 - INFO - 📡 Enhanced API Endpoints available:
+2025-07-19 21:14:15,211 - INFO -    POST /api/trader/create - Create new enhanced trader
+2025-07-19 21:14:15,211 - INFO -    POST /api/trader/<id>/start - Start enhanced trading
+2025-07-19 21:14:15,211 - INFO -    POST /api/trader/<id>/stop - Stop enhanced trading
+2025-07-19 21:14:15,212 - INFO -    GET  /api/trader/<id>/summary - Get enhanced portfolio summary
+2025-07-19 21:14:15,212 - INFO -    GET  /api/trader/<id>/trades - Get all trades
+2025-07-19 21:14:15,212 - INFO -    POST /api/trader/<id>/trade/manual - Place manual enhanced trade
+2025-07-19 21:14:15,212 - INFO -    GET  /api/trader/<id>/price - Get current price
+2025-07-19 21:14:15,212 - INFO -    GET  /api/trader/<id>/signals - Get signal statistics
+2025-07-19 21:14:15,212 - INFO -    POST /api/trader/<id>/force-balance - Force signal rebalancing
+2025-07-19 21:14:15,212 - INFO -    POST /api/trader/<id>/optimize - Get optimization suggestions
+2025-07-19 21:14:15,212 - INFO -    GET  /api/traders - List all enhanced traders
+2025-07-19 21:14:15,212 - INFO -    DELETE /api/trader/<id>/delete - Delete enhanced trader
+2025-07-19 21:14:15,212 - INFO - ================================================================================
+2025-07-19 21:14:15,212 - INFO - 🎯 Key Enhancements:
+2025-07-19 21:14:15,213 - INFO -    • True 50/50 signal generation with adaptive balancing
+2025-07-19 21:14:15,213 - INFO -    • Enhanced risk-reward adjustment based on drawdown
+2025-07-19 21:14:15,213 - INFO -    • Optimized for achieving 100% ROE in minimum trades
+2025-07-19 21:14:15,213 - INFO -    • Advanced position sizing and risk management
+2025-07-19 21:14:15,213 - INFO -    • Real-time performance tracking and optimization
+2025-07-19 21:14:15,213 - INFO - ================================================================================
+2025-07-19 21:14:15,256 - WARNING -  * Debugger is active!
+2025-07-19 21:14:15,274 - INFO -  * Debugger PIN: 245-117-843
+2025-07-19 21:14:22,630 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:22] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:22,661 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:22] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:24,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:24] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:27,128 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:27] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:30,129 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:30] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:30,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:30] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:33,128 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:33] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:34,444 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:34] "OPTIONS /api/trader/create HTTP/1.1" 200 -
+2025-07-19 21:14:34,450 - INFO - 💾 Enhanced Trader e622e185 initialized for EPICUSDT
+2025-07-19 21:14:34,454 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:34] "POST /api/trader/create HTTP/1.1" 200 -
+2025-07-19 21:14:34,474 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:34] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:36,128 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:36] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:36,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:36] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:39,127 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:39] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:42,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:42] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:42,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:42] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:45,129 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:45] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:48,129 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:48] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:48,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:48] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:51,126 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:51] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:54,129 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:54] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:54,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:54] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:14:57,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:14:57] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:00,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:00] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:00,135 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:00] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:03,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:03] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:06,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:06] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:06,135 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:06] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:09,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:09] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:12,131 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:12] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:12,136 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:12] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:15,131 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:15] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:18,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:18] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:18,135 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:18] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:21,131 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:21] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:24,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:24] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:24,135 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:24] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:27,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:27] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:27,539 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:27] "OPTIONS /api/trader/e622e185/start HTTP/1.1" 200 -
+2025-07-19 21:15:27,554 - INFO - 🚀 Starting Enhanced Paper Trading Bot e622e185
+2025-07-19 21:15:27,555 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:27] "POST /api/trader/e622e185/start HTTP/1.1" 200 -
+2025-07-19 21:15:27,562 - INFO - 🎯 Target: 100% ROE in max 50 trades
+2025-07-19 21:15:27,599 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:27] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:29,138 - INFO - 🎯 Signal: LONG | LONG Ratio: 100.00%
+2025-07-19 21:15:30,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:30] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:30,137 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:30] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:33,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:33] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:36,129 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:36] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:36,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:36] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:39,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:39] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:42,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:42] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:42,136 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:42] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:44,634 - INFO - 🎯 Signal: LONG | LONG Ratio: 100.00%
+2025-07-19 21:15:45,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:45] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:48,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:48] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:48,137 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:48] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:51,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:51] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:54,131 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:54] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:54,136 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:54] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:15:57,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:15:57] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:00,131 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:00] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:00,136 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:00] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:03,131 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:03] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:06,130 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:06] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:06,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:06] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:09,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:09] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:10,319 - ERROR - Exception fetching price: HTTPSConnectionPool(host='fapi.binance.com', port=443): Read timed out. (read timeout=10)
+2025-07-19 21:16:10,320 - INFO - 🎯 Signal: LONG | LONG Ratio: 100.00%
+2025-07-19 21:16:12,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:12] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:12,137 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:12] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:15,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:15] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:18,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:18] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:18,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:18] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:21,131 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:21] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:24,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:24] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:24,138 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:24] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:27,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:27] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:30,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:30] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:30,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:30] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:33,137 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:33] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:36,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:36] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:36,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:36] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:39,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:39] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:42,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:42] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:42,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:42] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:43,842 - ERROR - Exception fetching price: HTTPSConnectionPool(host='fapi.binance.com', port=443): Read timed out. (read timeout=10)
+2025-07-19 21:16:43,842 - INFO - 🎯 Signal: LONG | LONG Ratio: 100.00%
+2025-07-19 21:16:45,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:45] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:48,129 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:48] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:48,142 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:48] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:51,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:51] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:54,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:54] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:54,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:54] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:57,132 - INFO - 127.0.0.1 - - [19/Jul/2025 21:16:57] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:16:59,247 - INFO - 🎯 Signal: LONG | LONG Ratio: 100.00%
+2025-07-19 21:17:00,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:00] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:00,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:00] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:03,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:03] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:06,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:06] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:06,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:06] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:09,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:09] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:12,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:12] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:12,140 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:12] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:14,779 - INFO - 🎯 Signal: SHORT | LONG Ratio: 83.33%
+2025-07-19 21:17:15,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:15] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:18,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:18] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:18,140 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:18] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:21,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:21] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:24,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:24] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:24,140 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:24] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:27,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:27] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:30,133 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:30] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:30,139 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:30] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:30,322 - INFO - 🎯 Signal: LONG | LONG Ratio: 85.71%
+2025-07-19 21:17:30,934 - INFO - 📊 Risk: 5.0% | Reward: 15.0% | Drawdown: 0.0%
+2025-07-19 21:17:30,936 - INFO - 📈 ENHANCED TRADE: PT_EPICUSDT_0001 - LONG at $1.789700 | SL: $1.780752 | TP: $1.816545
+2025-07-19 21:17:30,936 - INFO - 🎯 New trade placed: LONG
+2025-07-19 21:17:33,135 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:33] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:36,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:36] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:36,140 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:36] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:39,135 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:39] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:42,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:42] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:42,140 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:42] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:45,134 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:45] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:45,229 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:45] "OPTIONS /api/trader/e622e185/trades HTTP/1.1" 200 -
+2025-07-19 21:17:45,232 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:45] "GET /api/trader/e622e185/trades HTTP/1.1" 200 -
+2025-07-19 21:17:46,621 - INFO - 🎯 Signal: SHORT | LONG Ratio: 75.00%
+2025-07-19 21:17:50,439 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:50] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:50,446 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:50] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:50,575 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:50] "OPTIONS /api/trader/[object%20Object]/summary HTTP/1.1" 200 -
+2025-07-19 21:17:50,585 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:50] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:17:53,432 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:53] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:53,442 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:53] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:17:56,432 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:56] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:56,440 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:56] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:56,451 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:56] "OPTIONS /api/trader/[object%20Object]/summary HTTP/1.1" 200 -
+2025-07-19 21:17:56,461 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:56] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:17:59,430 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:59] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:17:59,438 - INFO - 127.0.0.1 - - [19/Jul/2025 21:17:59] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:18:02,066 - INFO - 🎯 Signal: LONG | LONG Ratio: 77.78%
+2025-07-19 21:18:02,430 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:02] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:02,434 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:02] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:02,445 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:02] "OPTIONS /api/trader/[object%20Object]/summary HTTP/1.1" 200 -
+2025-07-19 21:18:02,450 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:02] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:18:05,432 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:05] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:05,441 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:05] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:18:08,430 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:08] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:08,436 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:08] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:08,444 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:08] "OPTIONS /api/trader/[object%20Object]/summary HTTP/1.1" 200 -
+2025-07-19 21:18:08,449 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:08] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:18:11,431 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:11] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:11,437 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:11] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:18:16,921 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:16] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:16,949 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:16] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:19,927 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:19] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:22,348 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:22] "OPTIONS /api/trader/e622e185/trades HTTP/1.1" 200 -
+2025-07-19 21:18:22,351 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:22] "GET /api/trader/e622e185/trades HTTP/1.1" 200 -
+2025-07-19 21:18:23,824 - INFO - 🎯 Signal: LONG | LONG Ratio: 80.00%
+2025-07-19 21:18:29,880 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:29] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:29,886 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:29] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:29,930 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:29] "OPTIONS /api/trader/[object%20Object]/summary HTTP/1.1" 200 -
+2025-07-19 21:18:29,935 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:29] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:18:32,881 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:32] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:32,890 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:32] "[33mGET /api/trader/[object%20Object]/summary HTTP/1.1[0m" 404 -
+2025-07-19 21:18:34,707 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:34] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:34,713 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:34] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:37,703 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:37] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:40,703 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:40] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:40,712 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:40] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:43,704 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:43] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:46,704 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:46] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:46,714 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:46] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:49,704 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:49] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:52,703 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:52] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:52,707 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:52] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:55,704 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:55] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:18:56,656 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:56] "OPTIONS /api/trader/e622e185/trades HTTP/1.1" 200 -
+2025-07-19 21:18:56,674 - INFO - 127.0.0.1 - - [19/Jul/2025 21:18:56] "GET /api/trader/e622e185/trades HTTP/1.1" 200 -
+2025-07-19 21:19:01,548 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:01] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:01,577 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:01] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:03,889 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:03] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:06,873 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:06] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:06,876 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:06] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:08,832 - ERROR - Exception fetching price: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max retries exceeded with url: /fapi/v1/ticker/price?symbol=EPICUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x112807ed0>: Failed to resolve 'fapi.binance.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-19 21:19:08,833 - INFO - 🎯 Signal: SHORT | LONG Ratio: 72.73%
+2025-07-19 21:19:09,876 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:09] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:12,876 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:12] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:12,881 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:12] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:15,876 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:15] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:18,872 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:18] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:18,876 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:18] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:21,876 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:21] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:24,875 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:24] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:24,881 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:24] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:26,239 - INFO - 🎯 Signal: SHORT | LONG Ratio: 66.67%
+2025-07-19 21:19:27,876 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:27] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:30,874 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:30] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:30,877 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:30] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:33,875 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:33] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:37,077 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:37] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:37,117 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:37] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:40,073 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:40] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:43,075 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:43] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:43,079 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:43] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:46,075 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:46] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:49,076 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:49] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:49,080 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:49] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:50,174 - INFO - 🎯 Signal: SHORT | LONG Ratio: 61.54%
+2025-07-19 21:19:52,074 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:52] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:55,074 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:55] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:55,093 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:55] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:19:58,082 - INFO - 127.0.0.1 - - [19/Jul/2025 21:19:58] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:01,127 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:01] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:01,136 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:01] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:04,077 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:04] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:07,076 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:07] "OPTIONS /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:07,081 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:07] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:07,182 - INFO - 🎯 Signal: SHORT | LONG Ratio: 57.14%
+2025-07-19 21:20:10,075 - INFO - 127.0.0.1 - - [19/Jul/2025 21:20:10] "GET /api/traders HTTP/1.1" 200 -
+2025-07-19 21:20:12,075 - INFO -  * Detected change in '/Users/nileshhanotia/Projects/anything/Backend/app.py', reloading
